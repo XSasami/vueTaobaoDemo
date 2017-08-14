@@ -1,0 +1,27 @@
+html {
+    font-size: 10px;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.line-v::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(232, 232, 232);
+}
+
+.line-h::after {
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 100%;
+    background-color: rgb(232, 232, 232);
+}
